@@ -12,7 +12,7 @@ namespace ops {
 
 using namespace api::utils;
 
-Tensor& uniform_(
+static Tensor& uniform_(
     Tensor& self,
     const double from,
     const double to,
